@@ -1,0 +1,15 @@
+---
+globs: *.go,go.mod
+alwaysApply: false
+---
+## Go language rules
+
+* Always use Go 1.24.
+
+* Use ginkgo (https://github.com/onsi/ginkgo/v2) and gomega (github.com/onsi/gomega) for tests and assertions.
+
+* Prefer the Functional Option Pattern when defining object constructors.
+
+* Define components as interfaces. Ask me if you should create a "Nop" implementation (no-op) and/or a "Fake" implementation.
+
+* When adding new dependencies for e.g. codegen, add them as tools via `go get -tool <dep>@latest` and invoke them via `go tool <dep>`.

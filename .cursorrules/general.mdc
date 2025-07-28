@@ -1,0 +1,20 @@
+---
+alwaysApply: true
+---
+## General rules
+
+* Don't write obvious inline comments, but leave the ones that were there already.
+
+* Don't implement changes when you aren't sure.
+
+* Don't update documentation after completing a task unless I ask you.
+
+* Don't make changes to the Makefile unless I ask you.
+
+* Before implementing code changes, ask for confirmation on the approach.
+
+* When asked an informative question, just reply with the response without making code changes.
+
+* Focus on the task I asked (avoid refactors or features I didn't ask for).
+
+* Run lint with `make lint` and unit tests with `make test`.
