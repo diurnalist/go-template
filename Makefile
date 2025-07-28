@@ -24,11 +24,11 @@ proto: ## Generate Go code from protobuf definitions using buf
 
 .PHONY: build
 build: proto ## Build the project
-	#go build -o bin/server cmd/server/main.go
+	go build -o bin/weather cmd/weather/main.go
 
 .PHONY: run
 run: ## Run the server
-	#go run cmd/server/main.go
+	go run cmd/weather/main.go
 
 .PHONY: test
 test: ## Run tests
